@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamini's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        section {
+            padding: 2rem;
+            background: white;
+            margin: 2rem auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        #home {
+            text-align: center;
+        }
+
+        #home img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        #home img:hover {
+            transform: scale(1.1);
+        }
+
+        #about {
+            background: #f4f4f4;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        #projects {
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project {
+            margin-bottom: 2rem;
+        }
+
+        .project h3 a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .project h3 a:hover {
+            color: #ff9800;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #333;
+            margin-top: 1rem;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #contact {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+        }
+
+        #contact a {
+            color: #ff9800;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        #contact a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <img src="profile.jpg" alt="Professional Photo">
+            <p>Web Developer with a passion for creating dynamic and user-friendly websites.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Yamini, and I am a web developer with experience in HTML, CSS, JavaScript, and various other web technologies. I am currently studying Computer Science and Engineering at Vignan University. Over the years, I have worked on numerous projects, honing my skills and expanding my knowledge in web development.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/yourusername/tic-tac-toe" target="_blank">Tic-Tac-Toe Game</a></h3>
+            <div class="video-container">
+                <video controls>
+                    <source src="C:\Users\Katti Yamini\Downloads\WhatsApp Video 2024-06-24 at 8.41.54 PM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/yourusername/stopwatch" target="_blank">Stopwatch</a></h3>
+            <div class="video-container">
+                <video controls>
+                    <source src="C:\Users\Katti Yamini\Downloads\WhatsApp Video 2024-06-22 at 8.47.27 PM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please email me at <a href="mailto:yamini@example.com">yamini@example.com</a>.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/katti-yamini-5a1433292/" target="_blank">LinkedIn</a> and <a href="https://www.instagram.com/yamini_katti/" target="_blank">Instagram</a>.</p>
+    </section>
+</body>
+</html>
